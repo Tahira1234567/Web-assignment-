@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Registration Form</title>
+</head>
+<body>
+    <h2>User Registration Form</h2>
+
+    <form action="#" method="post">
+        <!-- Basic Information -->
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br><br>
+
+        <label for="bio">Bio:</label><br>
+        <textarea id="bio" name="bio" rows="4" cols="40"></textarea><br><br>
+
+        <!-- Gender -->
+        <fieldset>
+            <legend>Gender:</legend>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </fieldset><br>
+
+        <!-- Interests -->
+        <fieldset>
+            <legend>Interests:</legend>
+            <input type="checkbox" id="music" name="interest" value="music">
+            <label for="music">Music</label><br>
+
+            <input type="checkbox" id="sports" name="interest" value="sports">
+            <label for="sports">Sports</label><br>
+
+            <input type="checkbox" id="reading" name="interest" value="reading">
+            <label for="reading">Reading</label>
+        </fieldset><br>
+
+        <!-- Country -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="usa">United States</option>
+            <option value="pakistan">Pakistan</option>
+            <option value="india">India</option>
+            <option value="uk">United Kingdom</option>
+        </select><br><br>
+
+        <!-- Preferred Colors -->
+        <label for="colors">Preferred Colors:</label>
+        <select id="colors" name="colors" multiple>
+            <option value="red">Red</option>
+            <option value="blue">Blue</option>
+            <option value="green">Green</option>
+            <option value="yellow">Yellow</option>
+        </select><br><br>
+
+        <!-- File Upload -->
+        <label for="profile">Profile Picture:</label>
+        <input type="file" id="profile" name="profile"><br><br>
+
+        <!-- Date of Birth -->
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate"><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <!-- Website -->
+        <label for="website">Website:</label>
+        <input type="url" id="website" name="website"><br><br>
+
+        <!-- Search -->
+        <label for="search">Search:</label>
+        <input type="search" id="search" name="search"><br><br>
+
+        <!-- Submit -->
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
